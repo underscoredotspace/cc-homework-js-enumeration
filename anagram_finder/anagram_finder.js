@@ -10,11 +10,8 @@ function isAnagram(base, test) {
   for (const letter of test) {
     const letterIndex = base.indexOf(letter.toLowerCase())
 
-    if (letterIndex != -1) {
-      base.splice(letterIndex, 1)
-    } else {
-      return false
-    }
+    if (letterIndex === -1) { return false }
+    base.splice(letterIndex, 1)
   } 
 
   return true
