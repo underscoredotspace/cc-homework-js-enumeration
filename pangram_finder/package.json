@@ -4,7 +4,7 @@
   "description": "",
   "main": "pangram_finder.js",
   "scripts": {
-    "test": "mocha pangram_finder_spec.js"
+    "test": "mocha -w pangram_finder_spec.js"
   },
   "keywords": [],
   "author": "",
