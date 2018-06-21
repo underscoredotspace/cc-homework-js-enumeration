@@ -4,7 +4,7 @@
   "description": "",
   "main": "isogram_finder.js",
   "scripts": {
-    "test": "mocha isogram_finder_spec.js"
+    "test": "mocha -w isogram_finder_spec.js"
   },
   "author": "",
   "license": "ISC",
